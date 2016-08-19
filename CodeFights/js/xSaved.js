@@ -29,7 +29,9 @@ xSaved=(o, n)=>{
         while(w(i,j)&&s<=n&&!l[o[i][j]]) {
             if (/[ x]/.test(o[i][j])) return 1
             eval(l[v])
+            // change to old
             s++
+            
         }
     }
 
